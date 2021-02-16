@@ -22,8 +22,6 @@ function.backward()
 Чему будет равен w{t=500}?
 '''
 
-import torch
-
 w = torch.tensor([[5., 10.], [1., 2.]], requires_grad=True)
 alpha = 0.001
 
